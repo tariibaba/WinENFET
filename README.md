@@ -21,7 +21,10 @@ If no File Explorer window is open, it will create a new one in the normal way.
 ## How to use
 
 1. Download Win E New Explorer Tab from the [Releases](../../releases) page.
-2. Run the application. Its icon will show up in the system tray to indicate that it's running. From then on, `Win + E` will open a new File Explorer tab.
+2. Run the application. \
+   Its (white H in a green background) icon will show up in the system tray to indicate that it's running.
+   ![Win E New Explorer Tab in the System Tray](media/system-tray.png) \
+   From then on, `Win + E` will open a new File Explorer tab.
 
 ### Run Win E New Explorer Tab on startup
 
