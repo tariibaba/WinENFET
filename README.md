@@ -1,4 +1,4 @@
-# Win E New Explorer Tab
+# WinENFET
 
 Never a good sight:
 
@@ -8,11 +8,11 @@ Get rid of File Explorer clutter in Windows 11, use this simple utility to quick
 
 `Win + E` before:
 
-![Before Win E New Explorer Tab](media/before.gif)
+![Before WinENFET](media/before.gif)
 
 `Win + E` after:
 
-![After Win E New Explorer Tab](media/after.gif)
+![After WinENFET](media/after.gif)
 
 If no File Explorer window is open, it will create a new one in the normal way.
 
@@ -20,12 +20,16 @@ If no File Explorer window is open, it will create a new one in the normal way.
 
 ## How to use
 
-1. Download Win E New Explorer Tab from the [Releases](../../releases) page.
+1. Download WinENFET from the [Releases](../../releases) page.
 2. Run the application. \
    Its (white H in a green background) icon will show up in the system tray to indicate that it's running.
    ![Win E New Explorer Tab in the System Tray](media/system-tray.png) \
    From then on, `Win + E` will open a new File Explorer tab.
 
-### Run Win E New Explorer Tab on startup
+### Run WinENFET on startup
 
 You'll likely want to configure the app to run anytime you log in. If you don't know to do this, please follow the steps in Method 2 of [this tutorial](https://allthings.how/how-to-run-an-app-automatically-at-startup-in-windows-11/).
+
+## Limitations
+
+It doesn't work when you press `Win + E` on a virtual desktop when another virtual desktop has an open File Explorer window.
