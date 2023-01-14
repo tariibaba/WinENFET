@@ -20,7 +20,7 @@ If no File Explorer window is open, it will create a new one in the normal way.
 
 ## How to use
 
-1. Download Win E New Explorer Tab from the [Releases](/releases) page
+1. Download Win E New Explorer Tab from the [Releases](../../releases) page
 2. Run the application
 
 ### Run Win E New Explorer Tab on Startup
