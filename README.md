@@ -23,6 +23,6 @@ If no File Explorer window is open, it will create a new one in the normal way.
 1. Download Win E New Explorer Tab from the [Releases](../../releases) page
 2. Run the application
 
-### Run Win E New Explorer Tab on Startup
+### Run Win E New Explorer Tab on startup
 
 You'll likely want to configure the app to run anytime you log in. If you don't know to do this, please follow the steps in Method 2 of [this tutorial](https://allthings.how/how-to-run-an-app-automatically-at-startup-in-windows-11/).
