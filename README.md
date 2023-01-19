@@ -36,4 +36,12 @@ It doesn't work when you press `Win + E` on a virtual desktop when another virtu
 
 ## Help bring this feature to Windows
 
-Please visit [this Feedback Hub page](feedback-hub:?contextid=395&feedbackid=138d47f4-34e5-49cd-8c97-43248d86b32c&form=1&src=1) to upvote a suggestion for a built-in option to always open File Explorer in a new tab. More upvotes make it more likely for the Windows team to act positively on the feedback and add the feature in the future.
+Please visit the Feedback Hub page at the link below to upvote a suggestion for a built-in option to always open File Explorer in a new tab. More upvotes make it more likely for the Windows team to act positively on the feedback and add the feature in the future.
+
+Link:
+
+```txt
+feedback-hub:?contextid=395&feedbackid=138d47f4-34e5-49cd-8c97-43248d86b32c&form=1&src=1
+```
+
+Copy and paste it into your browser. It will take you straight to the suggestion page in [Feedback Hub](https://apps.microsoft.com/store/detail/feedback-hub/9NBLGGH4R32N) if you have the app installed.
