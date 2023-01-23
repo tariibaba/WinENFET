@@ -6,7 +6,6 @@ FocusFileExplorer() {
    until Window.Name == "File Explorer" && hWnd := Window.hwnd
    if hWnd
    {
-      url := Window.LocationName
       WinActivate, ahk_id %hWnd%
       Send, ^t
    }
