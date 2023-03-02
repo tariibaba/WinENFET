@@ -1,14 +1,21 @@
 #e::FocusFileExplorer()
 
 FocusFileExplorer() {
-   for Window in ComObjCreate("Shell.Application").Windows
-      continue
-   until Window.Name == "File Explorer" && hWnd := Window.hwnd
-   if hWnd
+   ran := 0
+   WinGet, ids, List, ahk_class CabinetWClass
+   Loop, %ids%
    {
-      WinActivate, ahk_id %hWnd%
-      Send, ^t
+      this_id := ids%A_Index%
+      WinActivate, ahk_id %this_id%
+      WinWaitActive, ahk_id %this_id%,, 2
+      active := WinActive(ahk_class CabinetWClass)
+      if (active != 0) {
+         send, ^t
+         ran := 1
+         break
+      }
    }
-   else
+   if (ran != 1){
       Run, % "explorer"
+   }
 }
