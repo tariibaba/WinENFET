@@ -30,6 +30,22 @@ If no File Explorer window is open, it will create a new one in the normal way.
 
 You'll likely want to configure the app to run anytime you log in. If you don't know to do this, please follow the steps in Method 2 of [this tutorial](https://allthings.how/how-to-run-an-app-automatically-at-startup-in-windows-11/).
 
+### Run WinENFET as priviledged Scheduled Task at User logon
+
+You can run following commands inside a priviledged Powershell window. The Scheduled Task will start WinENFET at logon of the current User with admin priviledges, but without the annoying UAC promt
+
+```powershell
+$Path = 'C:\path\to\WinENFET-v1.0.0.exe'
+
+$actions = (New-ScheduledTaskAction -Execute $Path)
+$trigger = New-ScheduledTaskTrigger -AtLogon -User ($env:USERDOMAIN + "\" + $env:USERNAME)
+$principal = New-ScheduledTaskPrincipal -UserId ($env:USERDOMAIN + "\" + $env:USERNAME) -RunLevel Highest
+$settings = New-ScheduledTaskSettingsSet
+$task = New-ScheduledTask -Action $actions -Principal $principal -Trigger $trigger -Settings $settings
+Register-ScheduledTask 'Run WinENFET AutoHotkey' -InputObject $task
+```
+
+
 ## Limitations
 
 It doesn't work when you press `Win + E` on a virtual desktop when another virtual desktop has an open File Explorer window.
