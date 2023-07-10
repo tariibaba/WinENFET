@@ -34,9 +34,9 @@ You'll likely want to configure the app to run anytime you log in. If you don't 
 
 It doesn't work when you press `Win + E` on a virtual desktop when another virtual desktop has an open File Explorer window.
 
-## Stay updated
+## Let's connect
 
-Follow [Tari Ibaba](https://twitter.com/Tari_Ibaba) to stay up-to-date with fresh WinENFET releases and the Windows feature request status.
+If you have any questions, feel free to reach out to Tari Ibaba on [Twitter](https://twitter.com/Tari_Ibaba).
 
 ## Help bring this feature to Windows
 
